@@ -17,3 +17,4 @@ const WordRelay = require('./WordRelay.jsx');
 
 ReactDom.render(<WordRelay />, document.querySelector('#root'));
 //ReactDOM.createRoot(document.querySelector('#root')).render(<WordRelay />);
+//버전은 달라도 되는ㄴ듯
