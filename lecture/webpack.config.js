@@ -25,12 +25,14 @@ module.exports = {
             options: {
                 presets: [ // babel의 옵션들
                     '@babel/preset-env', '@babel/preset-react'],
+                plugins: ['@babel/plugin-proposal-class-properties']
+
                 },
         }],
     },
 
     output: {
-        path: path.join(__dirname, 'dist'),
+        path: path.join(__dirname, 'abc', '/app', 'dist'),
         filename: 'app.js'
     }, // 출력
 };
